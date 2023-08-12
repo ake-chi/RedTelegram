@@ -1,0 +1,21 @@
+#abt-banner {
+  background: url("/imgs/abt-header-img.jpg") no-repeat;
+}
+
+// #abtSec1 {
+//   background: url("/imgs/abtsec-bg.jpg") no-repeat;
+//   background-position: center;
+// }
+
+#abtSec2 {
+    .container{
+        .row {
+            &:nth-child(1) {
+                p{
+                    padding-right: 6rem;
+                }      
+            }
+          }
+    }
+
+}

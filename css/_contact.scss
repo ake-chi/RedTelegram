@@ -1,0 +1,27 @@
+#contact-banner{
+    background: url("/imgs/contact-header-img.jpg") no-repeat;
+}
+
+
+.contact-form{    
+    margin-top: 3rem;
+    form{
+        .form-control{
+            font-family: 'Alata';
+            border-radius: 0;
+            background-color: white;
+            border: none;
+            height: 55px;
+        }
+        textarea{
+            height: inherit !important;
+        }
+    }
+
+    .b-cta{        
+        margin-top: 3rem;
+        button{
+            background: transparent;
+        }        
+    }
+}
